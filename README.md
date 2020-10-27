@@ -1,1 +1,2 @@
 # blogJavi
+Pequeño blog personal
