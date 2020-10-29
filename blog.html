@@ -4,66 +4,69 @@
         <meta charset="UTF-8">
         <title>Blog Javier Estrada</title>
         <link rel="icon" type="imagen/jpg" href="https://i.imgur.com/KJMDieU">
+        <link href="https://fonts.googleapis.com/css2?family=Lora:wght@500&family=Nova+Mono&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/estilacho.css">
     </head>
     <body>
-        <header>
+        <header class="header">
             <div>
                 <p><strong>Afición por la ciencia</strong></p>
-                <figure>
+                <figure class="logo">
                     <a href="https://imgur.com/lkxkhgG"></a> <img src="https://imgur.com/lkxkhgG.jpg" alt="Logo de Javier Estrada" width="200">
                 </figure>
-            <nav>
+            <nav class="menu">
                 <ul>
                     <li>
-                    <a href="#books">Lectura recomendada</a>
+                    <a class="link" href="#libros">Lectura recomendada</a>
                     </li>
                     <li>
-                    <a href="#games">Videojuegos</a>
+                    <a class="link" href="#juegos">Videojuegos</a>
                     </li>
                     <li>
-                    <a href="#contacto">Contacto</a>
+                    <a class="link" href="#contacto">Contacto</a>
                     </li>
                 </ul>
             </nav>
             </div>
         </header>
-            <section>
+            <section class="hero">
                 <h1>
                 Hola! Soy <strong>Javier Estrada</strong> <br> Soy <strong>Ingeniero Industrial</strong> <br> y me gusta la <strong>física</strong>
                 </h1>
                 <img src="imagenes/portada.jpg" alt="Imagen principal" width="500">
             </section>
-            <section id="books">
+            <section id="libros" class="books">
                 <h2>
                 Libros recomendados
                 </h2>
-                <article>
-                    <h3>Libros de divulgaci&oacute;n cient&iacute;fica</h3>
-                    <h6>If you want to learn more about physics you can watch videos from Javier Santaolalla in YouTube</h6>
-                    <p><small><strong>Puedes verlo en.</strong> www.youtube.com</small></p>
-                    <img width="500" src="imagenes/elmundo.jpg" alt="El mundo y sus demonios">
-                </article>
-            </section>
-            <section id="games">
-                <h2>Videojuegos</h2>
-                <article>
-                    <figure>
-                        <img src="imagenes/godofwar.jpg" alt="God Of War">
+                <article class="advice">
+                    <h3 class="advice-books">Libros de divulgaci&oacute;n cient&iacute;fica</h3>
+                    <h6 class="advice-statement">If you want to learn more about physics you can watch videos from Javier Santaolalla in YouTube</h6>
+                    <p class="advice-url">Puedes verlo en www.youtube.com</p>
+                    <figure class="advice-imageContainer">
+                        <img class="advice-image" width="500" src="imagenes/elmundo.jpg" alt="El mundo y sus demonios">
                     </figure>
-                    <h3>Juegos de PlayStation 4</h3>
-                    <p>Los juegos que no puedes perder la oportunidad de jugarlos</p>
-                    <p>No tiene nada que ver con videojuegos pero puedes acceder a mi canal de YouTube</p>
-                    <a href="https://www.youtube.com/watch?v=0tgk7KiQH8M&t=3s" target="_blank">Primer video</video></a>
                 </article>
             </section>
-            <section id="contacto">
-                <form action="/suscripcion/"></form>
+            <section id="juegos">
+                <h2>Videojuegos</h2>
+                <article class="games">
+                    <figure class="games-imageContainer">
+                        <img class="games-image" src="imagenes/godofwar.jpg" alt="God Of War">
+                    </figure>
+                    <h3 class="games-title">Juegos de PlayStation 4</h3>
+                    <p class="games-description">Los juegos que no puedes perder la oportunidad de jugarlos</p>
+                    <p class="games-channel">No tiene nada que ver con videojuegos pero puedes acceder a mi canal de YouTube</p>
+                    <a class="games-url" href="https://www.youtube.com/watch?v=0tgk7KiQH8M&t=3s" target="_blank">Primer video</video></a>
+                </article>
+            </section>
+            <section id="contacto" class="contact">
+                <form action="/suscripcion/" class="form-email"></form>
                     <h3><strong>Espero te haya gustado el blog y contactame si quieres</strong></h3>
                     <label for="email">Deja tu email por aquí</label>
                     <input type="datetime" placeholder="@gmail.com" id="email">
                     <button>Enviar</button> 
             </section>
-            <footer>footer</footer>
+            <footer class="footer">footer</footer>
     </body>
 </html>
