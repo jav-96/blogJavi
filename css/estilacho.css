@@ -19,7 +19,7 @@ header{
 }
 
 .container {
-    border: 1px solid red;
+    /*border: 1px solid red;*/
     width: 1200px;
     margin: 0 auto;
     display: inherit;
@@ -30,7 +30,7 @@ header{
 }
 
 .container-games {
-    border: 1px solid red;
+    /*border: 1px solid red;*/
     width: 1200px;
     margin: 0 auto;
     display: inherit;
