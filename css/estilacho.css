@@ -1,9 +1,84 @@
 header{
-    background: peru;
+    background-color: #075794;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
 }
+
+.container-header {
+    width: 1200px;
+    margin: 0 auto;
+    display: inherit;
+    align-items: inherit;
+    justify-content: inherit;
+    height: inherit;
+    flex-wrap: inherit;
+    border: 2px solid rgb(116, 156, 100);    
+}
+
+.container {
+    border: 1px solid red;
+    width: 1200px;
+    margin: 0 auto;
+    display: inherit;
+    align-items: inherit;
+    justify-content: inherit;
+    height: inherit;
+    flex-wrap: inherit;
+}
+
+.container-games {
+    border: 1px solid red;
+    width: 1200px;
+    margin: 0 auto;
+    display: inherit;
+    align-items: center;
+    justify-content: space-around;
+    height: inherit;
+    flex-wrap: inherit;
+}
+.menu {
+    height: inherit;
+}
+
+.header ul {
+    display: flex;
+    height: inherit;
+}
+
+.header ul li {
+    height: inherit;
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+}
+
+figure {
+    margin: 0;
+}
+
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;  
+}
+
+
 body{
     font-family: 'Lora', sans-serif;
+    margin: 0;
+    background-color: #f1eeee;
 }
+
 h1,
 h2,
 h3,
@@ -11,4 +86,222 @@ h4,
 h5,
 h6{
     font-family: 'Nova Mono', sans-serif;
+    font-weight: normal;
+}
+
+h1 {
+    font-size: 40px;
+    line-height: 150%;
+    letter-spacing: -.2px;
+    color: #212331;
+    margin: 0;
+    /*margin: 100px 500px 100px 30px;*/
+}
+
+h1 strong {
+    color: #55bddf;
+}
+
+h2 {
+    color: #55bddf;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 26px;
+    margin-top: 0;
+    margin-bottom: 35px;
+}
+
+.hero {
+    height: 300px;
+    background-color: #075794;
+    /*background-image: url(../imagenes/portada.jpg);
+    background-size: 300px 400px;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-position-x: right;*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-image {
+    object-fit: cover;
+}
+
+.books {
+    /*background-color: #f1eeee;*/
+    margin: 0;
+}
+
+.books h2 {
+    display: flex;
+    align-items: center;
+    padding: 25px 0px 0px 10px;
+}
+
+.advice {
+    border: 2px solid slategray;
+    border-radius: 10px;
+    /*margin: 10px;*/
+    margin-bottom: 16px;
+    padding: 20px;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.advice-details {
+    width: 480px;
+    height: 300px;
+    flex-shrink: 0;
+    align-items: center;
+}
+
+.advice-books {
+    font-size: 35px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    padding: 0 15px;
+}
+
+.advice-statement,
+.advice-description,
+.advice-url {
+    margin: 0 0 10px 0;
+}
+
+.advice-description {
+    font-size: 20px;
+}
+
+.advice-imageContainer {
+    width: 480px;
+    height: 550px;
+}
+
+.advice-image {
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+}
+
+.games-list-title {
+    margin-left: 20px;
+    padding-top: 10px;
+}
+
+.games-list {
+    display: flex;
+    flex-wrap: wrap;
+    /*background-color: #f1eeee;*/
+}
+
+.games {
+    margin: 10px;
+    width: 480px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    overflow: hidden;
+    background: #f4fbff;
+}
+
+.games-detail {
+    margin: 20px 40px;
+    margin-top: -40px;
+    background-color: white;
+    position: relative;
+    padding: 20px;
+    text-align: center;
+}
+
+.games img {
+    width: 480px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.games-description,
+.games-channel {
+    text-align: center;
+}
+
+.games-url {
+    border: 1px solid #056fff;
+    padding: 5px 20px;
+    text-decoration: none;
+    color: #056fff;
+    border-radius: 5px;
+}
+
+.contact {
+    background-color:  #075794;
+    color: white;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.form-email h3 {
+    font-family: 'Lora', sans-serif;
+}
+
+.form-email input {
+    border-color: gray;
+    border-style: solid;
+    border-radius: 8px;
+    padding: 10px 20px 10px 25px;
+    background-image: url('../imagenes/envelope.svg');
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+    background-position-y: center;
+}
+
+.form-email button {
+    display: block;
+    margin-top: 10px;
+    background: transparent;
+    color: white;
+    padding: 10px 0px;
+    border-radius: 5px;
+    width: 100px;
+    margin-top: 10px;
+}
+
+.social-link {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+    background-size: 50px 50px;
+}
+
+.social-link.twitter {
+    background-image: url(../imagenes/twitter.svg);
+}
+
+.social-link.facebook {
+    background-image: url(../imagenes/facebook.svg);
+}
+
+.social-link.github {
+    background-image: url(../imagenes/github.svg);
+}
+
+.social-link.instagram {
+    background-image: url(../imagenes/instagram.svg);
+}
+
+.footer {
+    color: white;
+    background-color: #075794;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer a {
+    color: wheat;
 }
